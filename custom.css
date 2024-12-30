@@ -1,0 +1,18 @@
+/* custom.css */
+
+:root {
+    --bs-body-color: #5A5E6B; /* text slate color : Bretagne France theme */
+  }
+  
+  .custom-heading {
+    color: var(--bs-body-color);
+  }
+  
+  .custom-button {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    border-radius: var(--bs-border-radius);
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
