@@ -1,19 +1,37 @@
-$(document).ready(function() {
-    $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: true,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
             },
-            768: {
-                items: 2
+            600:{
+                items:3
             },
-            1024: {
-                items: 3
+            1000:{
+                items:5
             }
         }
     });
+
+    // Initialise GLightbox
+    const lightbox = GLightbox({
+        selector: '.glightbox'
+    });
 });
+
+
+//Slick 
+$(document).ready(function () {
+    $('#reviews').slick({
+        dots: false,
+        infinite: true, 
+        autoplay: true, 
+        speed: 1500,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
+});
+  

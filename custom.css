@@ -1,5 +1,3 @@
-
-
 /* Reset CSS */
 * {
   margin: 0;
@@ -14,6 +12,16 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+/* custom links */
+.easy-link {
+  text-decoration: underline;
+}
+
+.easy-link:hover{
+  text-decoration: underline;
+  color: var(--forest-green);
 }
 
 button, input, textarea {
@@ -37,8 +45,8 @@ li {
 
 /* Space between section */
 section {
-  margin-bottom: 80px; /* Space between section */
-  padding: 40px; /* Internal space */
+  margin-bottom: 80px;
+  padding: 40px;
 }
 
 
@@ -49,6 +57,7 @@ section {
     --custom-teal: #64A19D;
     --custom-slate: #5a5e6b;
     --custom-red: #E23C3F;
+    --forest-green: #2D6A4F;
   }
   
   body {
@@ -60,7 +69,10 @@ section {
     color: white;
   }
 
-
+/* icons */
+.fas{
+  font-size: 2.5em;
+}
 
 /* ---------- Tile 2 ---------- */
 h2 {
@@ -69,8 +81,6 @@ h2 {
 
 /* ---------- Tile 3 ---------- */
 h3 {
-  text-decoration: underline;
-  text-decoration-color: var(--custom-teal);
   font-size: 2.5em;
   margin-bottom: 20px;
 }
@@ -382,6 +392,7 @@ h4 {
   /* ---------- Image Styles ---------- */
   .rounded-image {
     border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
 
 
@@ -404,6 +415,7 @@ h4 {
   
   .circle-button:hover img {
     opacity: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
   
   .circle-button:hover .button-text,
@@ -437,13 +449,13 @@ h4 {
   .bg-contact {
     position: relative;
     width: 100%;
-    background: linear-gradient(to bottom, transparent, #64A19D); /* Linear gradient background */
+    background: linear-gradient(to bottom, transparent, var(--custom-teal)); /* Linear gradient background */
     padding-bottom: 40px;;
   }
 
   .custom-hr {
     border: 0;
-    border: 3px solid #FFD700;
+    border: 3px solid var(--forest-green);
     border-radius: 20px;
     width: 33.33%; /* 1/3 width*/
     margin: 15px auto;
@@ -473,77 +485,46 @@ h4 {
   }
 
 
-  /* ---------- Avis section ---------- */
-  .card-custom {
-    background-color: var(--custom-yellow);
-    color: var(--custom-slate);
-    border: none;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    min-height: 200px;
-    margin: 0 10px;
-    text-align: center;
-}
+  /* ---------- Carousel images ---------- */
+  .owl-carousel .item img {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+  }
 
-.card-custom .card-title {
-    color: var(--custom-slate);
-    margin-top: auto;
-}
+  .owl-carousel .item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}  
 
-.card-custom .card-text {
-  color: #fff;
-  margin-top: auto;
-  margin-bottom: 10px;
-}
 
-.small-card {
-    width: 300px;
-    height: 300px;
-}
-.large-card {
-    width: 400px;
-    height: 400px;
-}
 
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 20px;
-}
+/* ---------- Avis ---------- */
+.reviews {
+  max-width: 600px;
+  margin: 50px auto;
+  background: var(--forest-green);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 20px 20px 20px 0px;
+  }
+  
+  .reviews::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent var(--forest-green) transparent transparent; /* Pointe jaune à gauche */
+  }
 
-.owl-nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
 
-.owl-nav button {
-  background-color: var(--custom-yellow);
-  color: var(--custom-slate);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.owl-nav button:hover {
-  background-color: var(--custom-slate);
-  color: var(--custom-yellow);
-}
-
-.owl-dots {
-  margin-top: 10px;
-}
 
 
 ;

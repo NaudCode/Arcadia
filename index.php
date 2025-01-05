@@ -3,12 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Arcadia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <!-- CSS Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-
+    <!-- Inclure le CSS de GLightbox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+    <!-- Add the slick-theme.css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <!-- icone -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="custom.css">
   </head>
 
@@ -81,10 +89,12 @@
 <!-- Habitat presentation -->
     <section>
       <div class="description-content text-center">
+        <i class="fas fa-paw"></i><br>
         <h3>Notre Zoo</h3>
-        <p>Chez Arcadia, la nature prend vie sous vos yeux ! <br>
-        Nous avons recréé avec soin trois habitats naturels uniques pour offrir à nos animaux un environnement aussi proche que possible de leur milieu naturel. 
-        Explorez la Savane, le Marais et la Jungle, et découvrez les merveilles de chaque écosystème.</p>
+        <p>Explorez nos habitats naturels uniques et rencontrez nos animaux incroyables</p>
+        <p>Chez Arcadia, la nature prend vie sous vos yeux !<br> 
+        Nous avons recréé avec soin trois habitats naturels uniques pour offrir à nos animaux un environnement aussi proche que possible de leur milieu naturel. Chaque habitat est conçu pour reproduire fidèlement les conditions de vie des animaux, leur permettant de s'épanouir et de se comporter comme ils le feraient dans la nature.</p>
+        <p><u>Cliquer sur l'un des habitats pour en savoir plus.</u></p>
       </div>
 
       <div class="d-flex justify-content-center align-items-center flex-wrap">
@@ -107,11 +117,38 @@
           </a>
         </div>
       </div>
+
+      <div class="description-content text-center">
+      <p>Plongez dans la luxuriante Jungle, explorez les vastes étendues de la Savane et découvrez les mystères des Marais. Chaque écosystème est une aventure en soi, pleine de merveilles à découvrir. Que vous soyez passionné par les grands félins, les éléphants majestueux ou les oiseaux exotiques, notre zoo vous offre une expérience immersive et inoubliable.</p>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="owl-carousel owl-theme col-lg-6">
+                    <div class="item"><a href="./img/CarouselDSC_0394.JPG" class="glightbox"><img src="./img/CarouselDSC_0394.JPG" alt="Photo de notre espace jungle" class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0400.JPG" class="glightbox"><img src="./img/CarouselDSC_0400.JPG" alt="Photo des lions qui se reposent sur leur rochers dans leur environnement savane." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0403.JPG" class="glightbox"><img src="./img/CarouselDSC_0403.JPG" alt="Suricat debout faisant le guet." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0416.JPG" class="glightbox"><img src="./img/CarouselDSC_0416.JPG" alt="Deux éléphants si ce promènent." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0433.JPG" class="glightbox"><img src="./img/CarouselDSC_0433.JPG" alt="Rhinocéros qui mange vu de profil droit." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0462.JPG" class="glightbox"><img src="./img/CarouselDSC_0462.JPG" alt="Grorille assis grimacant." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0443.JPG" class="glightbox"><img src="./img/CarouselDSC_0443.JPG" alt="Panda vu de haut qui mange." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0499.JPG" class="glightbox"><img src="./img/CarouselDSC_0499.JPG" alt="Girafe vu de profil." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0504.JPG" class="glightbox"><img src="./img/CarouselDSC_0504.JPG" alt="Guépard marchant vu de face." class="img-fluid"></a></div>
+                    <div class="item"><a href="./img/CarouselDSC_0559.JPG" class="glightbox"><img src="./img/CarouselDSC_0559.JPG" alt="Boa enroulé sur lui nous regardant." class="img-fluid"></a></div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+ 
+
     </section>
 
     <!-- Services -->
     <section>
         <div class="description-content text-center">
+            <i class="fas fa-utensils"></i><br>
             <h3>Nos services</h3>
         </div> 
 
@@ -165,48 +202,37 @@
 <!-- Avis -->
     <section class="container">
       <div class="description-content text-center">
+        <i class="fas fa-comments"></i><br>
         <h3>Avis visiteurs</h3>
       </div>
-      <div class="text-center">
-        <p>#arcadia</p>
+      <div class="reviews" id="reviews">
+        <div class="review">
+            <p>J'ai passé une journée incroyable au Restaurant du Parc ! La vue sur les animaux pendant le repas était magique, et la nourriture était délicieuse. Le petit train était parfait pour faire le tour du parc, surtout avec ma poussette. Merci pour cette belle expérience !</p>
+            <p><b>MarieL23</b></p>
+        </div>
+        <div class="review">
+            <p>Je recommande vivement le Restaurant du Parc ! La visite guidée gratuite avec l'expert des animaux était fascinante et très instructive. Le petit train est un plus, surtout pour les personnes à mobilité réduite comme moi. Une journée parfaite en famille !</p>
+            <p><b>PailD54</b></p>
+        </div>
+        <div class="review">
+            <p>Quelle belle découverte que le Restaurant du Parc ! La vue sur le parc et les animaux est magnifique, et le repas était excellent. Le petit train est une super idée pour explorer le parc confortablement. La visite guidée était un vrai bonus. Je reviendrai sans hésiter !</p>
+            <p><b>SophieR12</b></p>
+        </div>
       </div>
-      <div class="card-container">
-          <div class="card card-custom small-card">
-              <div class="card-body d-flex flex-column justify-content-between">
-                  <p class="card-title">Commentaire</p>
-                  <p class="card-text">Nom de la personne</p>
-              </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+              <a href="lien avis" class="easy-link" target="_blank">Découvrez tous nos avis</a>
           </div>
-          <div class="card card-custom large-card">
-              <div class="card-body d-flex flex-column justify-content-between">
-                  <p class="card-title">Commentaire<p/>
-                  <p class="card-text">Nom de la personne</p>
-              </div>
-          </div>
-          <div class="card card-custom small-card">
-              <div class="card-body d-flex flex-column justify-content-between">
-                  <p class="card-title">Commentaire<p/>
-                  <p class="card-text">Nom de la personne</p>
-              </div>
-          </div>
+        </div>
       </div>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col">
-                  <button class="btn text-center custom-btn-teal">
-                    <a href="lien avis" target="_blank">Accéder à tous nos avis</a>
-                  </button>
-                </div>
-              </div>
-            </div>
     </section>
-
-
 
 
 <!-- Contact -->
     <div class="bg-contact" id="Contact">
       <div class="description-content container text-center h3-slate mt-5">
+        <i class="fas fa-map-marker-alt"></i><br>
         <h3>Contact</h3>
       </div>
         <div class="container text-center">
@@ -270,6 +296,12 @@
     <!-- jQuery et Owl Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Includ  JS GLightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+    <!-- Includ JS Slick -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 
     <!-- Ton script externe -->
     <script src="./carousel.js"></script>
