@@ -64,6 +64,10 @@ section {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
   }
 
+  .text-slate {
+    color: var(--custom-slate);
+  }
+
   .bg-theme {
     background-color: var(--bs-body-color);
     color: white;
