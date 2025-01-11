@@ -1,0 +1,52 @@
+
+/* image animal */
+.animal-info {
+    margin-left:20px;
+  }
+
+  .animal-image-container {
+    position: relative;
+  }
+
+  .animal-name {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+    -webkit-text-stroke: 1px #5A5E6B;
+    padding: 5px 10px;
+    display: none;
+  }
+
+  .animal-image-container:hover .animal-name {
+    display: block;
+  }
+
+  .animal-image {
+    cursor: pointer;
+    height: 300px;
+    width: 600px;
+  }
+
+  .animal-row {
+    display: flex;
+    align-items: center;
+  }
+  
+@media (min-width: 991px) {
+    .animal-row {
+      margin-bottom: 0; 
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .animal-row {
+      margin-bottom: 20px; 
+    }
+  }
+  
+
+  ;
