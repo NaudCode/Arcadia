@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../Styles/custom.css">
-    <link rel="stylesheet" href="../Styles/avis.css">
+    <link rel="stylesheet" href="../Styles/services.css">
   </head>
 
   <body>
@@ -18,7 +18,7 @@
 <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-background">
       <div class="container-fluid">
-        <a class="navbar-brand d-lg-none" href="/" onclick="window.route(event)">Arcadia</a>
+        <a class="navbar-brand d-lg-none"  href="/" onclick="window.route(event)">Arcadia</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,64 +46,75 @@
     </nav>
 
 
-    <!-- Hero thinking monkey -->
+    <!-- Hero elephant eating -->
     <div class="hero-image-container">
-      <img src="../img/header_avis.jpg" alt="Phot d'un singe les doigts sur le menton, comme s'il était en pleine réflexion." class="hero-image">
+      <img src="../img/service_header.jpg" alt="Photo d'un éléphant dans l'eau, vue de profil mangeant une pomme grâce à sa trompe." class="hero-image">
     </div>
 
     <!-- Habitat presentation -->
-    <section class="description-avis">
+    <section class="description-services">
       <div class="description-content text-center">
-        <i class="fa-solid fa-pen"></i><br>
-        <h3>Laisser votre avis</h3>
+        <i class="fas fa-utensils"></i><br>
+        <h3>Nos services</h3>
         <p>
-            Chez Arcadia, nous cherchons constamment à améliorer nos produits et services. 
-            C'est pourquoi votre avis nous est si précieux. En partageant votre expérience avec nous, que ce soit une suggestion, une critique ou un compliment, 
-            vous nous aidez non seulement à progresser, mais aussi à guider les futurs utilisateurs dans leur choix.
+            Profitez de nos services tout au long de votre visites. 
         </p>
       </div>
 
-        <!-- form -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <form>
-                        <div class="mb-3">
-                            <label for="pseudo" class="form-label label-left">Pseudo</label>
-                            <input type="text" class="form-control py-3" id="pseudo" name="pseudo" maxlength="50" required placeholder="Quel est votre votre pseudo ?">
-                        </div>
-                        <div class="mb-3">
-                            <label for="commentaire" class="form-label label-left">Commentaire</label>
-                            <textarea class="form-control" id="commentaire" name="commentaire" rows="5" maxlength="50" required placeholder="Veuillez rédiger votre commentaire."></textarea>
-                        </div>
-                        <button type="submit" class="btn custom-btn-yellow">Envoyer</button>
-                    </form>
-                </div>
-            </div>
-        </div>
     </section>
     
 
-    <!-- Nos avis -->
-    <section>
-        <div class="description-content text-center">
-            <i class="fas fa-comments"></i><br>
-            <h3>Nos avis</h3>
+    <!-- Services -->
+    <section class="container">
+
+        <div>
+            <h4 class="description-content text-center">Se restaurer</h4>
         </div>
 
-        <div class="commentaire-container">
-            <div class="commentaire-header">Avis de MarieL23:</div>
-            <p>"J'ai passé une journée incroyable au Restaurant du Parc! La vue sur les animaux pendant le repas était magique, et la nourriture était délicieuse. Le petit train était parfait pour faire le tour du parc, surtout avec ma poussette. Merci pour cette belle expérience!"</p>
+        <div class="row gx-0 justify-content-center p-4">
+            <div class="col-lg-6"><img class="img-fluid rounded-image" src="../img/resto.jpg" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="h-100">
+                    <p class="pt-4 text-center"><b>Nom</b></p>
+                    <p class="px-3">
+                        INFO DU RESTAURANT
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <div class="commentaire-container">
-            <div class="commentaire-header">Avis de PaulD45:</div>
-            <p>"Je recommande vivement le Restaurant du Parc! La visite guidée gratuite avec l'expert des animaux était fascinante et très instructive. Le petit train est un plus, surtout pour les personnes à mobilité réduite comme moi. Une journée parfaite en famille!"</p>
+        <hr class="custom-hr-services" />
+
+        <div>
+            <h4 class="description-content text-center">Visite guidée</h4>
+        </div>
+        <div class="row gx-0 justify-content-center p-4">
+            <div class="col-lg-6"><img class="img-fluid rounded-image" src="../img/guide.jpg" alt="Vue d'un guide qui présente des lémuriens (singles) dans leurs enclos." /></div>
+            <div class="col-lg-6 order-lg-2">
+                <div class="h-100">
+                    <p class="pt-4 text-center"><b>Nom</b></p>
+                    <p class="px-3">
+                        INFO VISITE GUIDEE
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <div class="commentaire-container">
-            <div class="commentaire-header">Avis de :</div>
-            <p>"Quelle belle découverte que le Restaurant du Parc! La vue sur le parc et les animaux est magnifique, et le repas était excellent. Le petit train est une super idée pour explorer le parc confortablement. La visite guidée était un vrai bonus. Je reviendrai sans hésiter!"</p>
+        <hr class="custom-hr-services" />
+
+        <div>
+            <h4 class="description-content text-center">Petit train</h4>
+        </div>
+        <div class="row gx-0 justify-content-center p-4">
+            <div class="col-lg-6"><img class="img-fluid rounded-image" src="../img/petit train.png" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="h-100">
+                    <p class="pt-4 text-center"><b>Nom</b></p>
+                    <p class="px-3">
+                        INFO PETIT TRAIN
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 

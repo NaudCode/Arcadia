@@ -1,0 +1,15 @@
+.description-services {
+    position: relative;
+    width: 100%;
+    padding: 50px 0; /* Adds padding to the top and bottom of the section */
+    background: linear-gradient(to bottom, #64A19D, transparent); /* Linear gradient background */
+  }
+
+  .custom-hr {
+    border: 1px solid #5a5e6b;
+    margin: 15px auto;
+
+
+}
+
+;

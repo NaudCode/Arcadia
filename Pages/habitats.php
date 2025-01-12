@@ -18,7 +18,7 @@
 <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-background">
       <div class="container-fluid">
-        <a class="navbar-brand d-lg-none" href="#">Arcadia</a>
+        <a class="navbar-brand d-lg-none" href="/" onclick="window.route(event)">Arcadia</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,7 +29,7 @@
               <a class="nav-link active" href="/habitats" onclick="window.route(even)">Habitats</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="/services" onclick="window.route(even)">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/avis" onclick="window.route(even)">Avis</a>

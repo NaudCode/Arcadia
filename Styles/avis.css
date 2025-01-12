@@ -1,0 +1,34 @@
+
+/* form */
+
+
+.description-avis {
+    position: relative;
+    width: 100%;
+    padding: 50px 0; /* Adds padding to the top and bottom of the section */
+    background: linear-gradient(to bottom, #64A19D, transparent); /* Linear gradient background */
+  }
+
+
+.form-control {
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.label-left {
+    text-align: left !important; 
+    margin-left: 20px;
+}
+
+.commentaire-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.commentaire-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+;
