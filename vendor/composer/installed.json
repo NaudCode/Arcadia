@@ -94,7 +94,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/cache"
+            "install-path": "/doctrine/cache"
         },
         {
             "name": "doctrine/collections",
@@ -183,7 +183,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/collections"
+            "install-path": "/doctrine/collections"
         },
         {
             "name": "doctrine/dbal",
@@ -299,7 +299,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/dbal"
+            "install-path": "/doctrine/dbal"
         },
         {
             "name": "doctrine/deprecations",
@@ -347,7 +347,7 @@
                 "issues": "https://github.com/doctrine/deprecations/issues",
                 "source": "https://github.com/doctrine/deprecations/tree/1.1.4"
             },
-            "install-path": "../doctrine/deprecations"
+            "install-path": "/doctrine/deprecations"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -470,7 +470,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/doctrine-bundle"
+            "install-path": "/doctrine/doctrine-bundle"
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -565,7 +565,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/doctrine-migrations-bundle"
+            "install-path": "/doctrine/doctrine-migrations-bundle"
         },
         {
             "name": "doctrine/event-manager",
@@ -659,7 +659,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/event-manager"
+            "install-path": "/doctrine/event-manager"
         },
         {
             "name": "doctrine/inflector",
@@ -753,7 +753,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/inflector"
+            "install-path": "/doctrine/inflector"
         },
         {
             "name": "doctrine/instantiator",
@@ -826,7 +826,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/instantiator"
+            "install-path": "/doctrine/instantiator"
         },
         {
             "name": "doctrine/lexer",
@@ -906,7 +906,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/lexer"
+            "install-path": "/doctrine/lexer"
         },
         {
             "name": "doctrine/migrations",
@@ -1012,7 +1012,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/migrations"
+            "install-path": "/doctrine/migrations"
         },
         {
             "name": "doctrine/orm",
@@ -1105,7 +1105,7 @@
                 "issues": "https://github.com/doctrine/orm/issues",
                 "source": "https://github.com/doctrine/orm/tree/3.3.1"
             },
-            "install-path": "../doctrine/orm"
+            "install-path": "/doctrine/orm"
         },
         {
             "name": "doctrine/persistence",
@@ -1204,7 +1204,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/persistence"
+            "install-path": "/doctrine/persistence"
         },
         {
             "name": "doctrine/sql-formatter",
@@ -1263,7 +1263,7 @@
                 "issues": "https://github.com/doctrine/sql-formatter/issues",
                 "source": "https://github.com/doctrine/sql-formatter/tree/1.5.1"
             },
-            "install-path": "../doctrine/sql-formatter"
+            "install-path": "/doctrine/sql-formatter"
         },
         {
             "name": "psr/cache",
@@ -1315,7 +1315,7 @@
             "support": {
                 "source": "https://github.com/php-fig/cache/tree/3.0.0"
             },
-            "install-path": "../psr/cache"
+            "install-path": "/psr/cache"
         },
         {
             "name": "psr/container",
@@ -1371,7 +1371,7 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "install-path": "../psr/container"
+            "install-path": "/psr/container"
         },
         {
             "name": "psr/event-dispatcher",
@@ -1424,7 +1424,7 @@
                 "issues": "https://github.com/php-fig/event-dispatcher/issues",
                 "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
             },
-            "install-path": "../psr/event-dispatcher"
+            "install-path": "/psr/event-dispatcher"
         },
         {
             "name": "psr/log",
@@ -1477,7 +1477,7 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "install-path": "../psr/log"
+            "install-path": "/psr/log"
         },
         {
             "name": "symfony/cache",
@@ -1578,7 +1578,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/cache"
+            "install-path": "/symfony/cache"
         },
         {
             "name": "symfony/cache-contracts",
@@ -1657,7 +1657,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/cache-contracts"
+            "install-path": "/symfony/cache-contracts"
         },
         {
             "name": "symfony/config",
@@ -1735,7 +1735,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/config"
+            "install-path": "/symfony/config"
         },
         {
             "name": "symfony/console",
@@ -1831,7 +1831,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/console"
+            "install-path": "/symfony/console"
         },
         {
             "name": "symfony/dependency-injection",
@@ -1914,7 +1914,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/dependency-injection"
+            "install-path": "/symfony/dependency-injection"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1984,7 +1984,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/deprecation-contracts"
+            "install-path": "/symfony/deprecation-contracts"
         },
         {
             "name": "symfony/doctrine-bridge",
@@ -2096,7 +2096,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/doctrine-bridge"
+            "install-path": "/symfony/doctrine-bridge"
         },
         {
             "name": "symfony/error-handler",
@@ -2174,7 +2174,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/error-handler"
+            "install-path": "/symfony/error-handler"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2257,7 +2257,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/event-dispatcher"
+            "install-path": "/symfony/event-dispatcher"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -2336,7 +2336,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/event-dispatcher-contracts"
+            "install-path": "/symfony/event-dispatcher-contracts"
         },
         {
             "name": "symfony/filesystem",
@@ -2405,7 +2405,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/filesystem"
+            "install-path": "/symfony/filesystem"
         },
         {
             "name": "symfony/finder",
@@ -2472,7 +2472,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/finder"
+            "install-path": "/symfony/finder"
         },
         {
             "name": "symfony/framework-bundle",
@@ -2625,7 +2625,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/framework-bundle"
+            "install-path": "/symfony/framework-bundle"
         },
         {
             "name": "symfony/http-foundation",
@@ -2706,7 +2706,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/http-foundation"
+            "install-path": "/symfony/http-foundation"
         },
         {
             "name": "symfony/http-kernel",
@@ -2823,7 +2823,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/http-kernel"
+            "install-path": "/symfony/http-kernel"
         },
         {
             "name": "symfony/orm-pack",
@@ -2875,7 +2875,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/orm-pack"
+            "install-path": "/symfony/orm-pack"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2957,7 +2957,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-ctype"
+            "install-path": "/symfony/polyfill-ctype"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
@@ -3038,7 +3038,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-grapheme"
+            "install-path": "/symfony/polyfill-intl-grapheme"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -3122,7 +3122,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-normalizer"
+            "install-path": "/symfony/polyfill-intl-normalizer"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3205,7 +3205,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-mbstring"
+            "install-path": "/symfony/polyfill-mbstring"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -3288,7 +3288,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-php80"
+            "install-path": "/symfony/polyfill-php80"
         },
         {
             "name": "symfony/polyfill-php83",
@@ -3367,7 +3367,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-php83"
+            "install-path": "/symfony/polyfill-php83"
         },
         {
             "name": "symfony/routing",
@@ -3451,7 +3451,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/routing"
+            "install-path": "/symfony/routing"
         },
         {
             "name": "symfony/service-contracts",
@@ -3537,7 +3537,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/service-contracts"
+            "install-path": "/symfony/service-contracts"
         },
         {
             "name": "symfony/stopwatch",
@@ -3602,7 +3602,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/stopwatch"
+            "install-path": "/symfony/stopwatch"
         },
         {
             "name": "symfony/string",
@@ -3692,7 +3692,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/string"
+            "install-path": "/symfony/string"
         },
         {
             "name": "symfony/var-dumper",
@@ -3778,7 +3778,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/var-dumper"
+            "install-path": "/symfony/var-dumper"
         },
         {
             "name": "symfony/var-exporter",
@@ -3857,7 +3857,7 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/var-exporter"
+            "install-path": "/symfony/var-exporter"
         }
     ],
     "dev": true,

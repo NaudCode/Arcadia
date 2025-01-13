@@ -491,8 +491,8 @@ class Filesystem
             $depth = \count($startPathArr) - $index;
         }
 
-        // Repeated "../" for each level need to reach the common path
-        $traverser = str_repeat('../', $depth);
+        // Repeated "/" for each level need to reach the common path
+        $traverser = str_repeat('/', $depth);
 
         $endPathRemainder = implode('/', \array_slice($endPathArr, $index));
 

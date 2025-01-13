@@ -43,7 +43,7 @@ class DoctrineMigrationsExtension extends Extension
 
         $config = $this->processConfiguration($configuration, $configs);
 
-        $locator = new FileLocator(__DIR__ . '/../Resources/config/');
+        $locator = new FileLocator(__DIR__ . '//Resources/config/');
         $loader  = new XmlFileLoader($container, $locator);
 
         $loader->load('services.xml');
@@ -191,7 +191,7 @@ class DoctrineMigrationsExtension extends Extension
      */
     public function getXsdValidationBasePath(): string
     {
-        return __DIR__ . '/../Resources/config/schema';
+        return __DIR__ . '//Resources/config/schema';
     }
 
     public function getNamespace(): string

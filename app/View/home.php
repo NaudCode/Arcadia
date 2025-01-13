@@ -17,8 +17,8 @@
     <!-- icone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../Styles/custom.css">
-    <link rel="stylesheet" href="../Styles/index.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
+    <link rel="stylesheet" href="/public/css/home.css">
   </head>
 
   <body>
@@ -56,11 +56,11 @@
 <!-- Hero Video -->
     <div class="hero">
       <video autoplay muted loop id="hero-video-desktop" class="hero-video">
-        <source src="../img/header.mp4" type="video/mp4">
+        <source src="/public/img/header.mp4" type="video/mp4">
         Votre navigateur ne supporte pas la lecture ou la vidéo.
       </video>
       <video autoplay muted loop id="hero-video-mobile" class="hero-video">
-        <source src="../img/header_smartphone.mp4" type="video/mp4">
+        <source src="/public/img/header_smartphone.mp4" type="video/mp4">
         Votre navigateur ne supporte pas la lecture ou la vidéo.
       </video>
       <div class="hero-content">
@@ -81,7 +81,7 @@
       <div class="container mt-4">
       <div class="row">
         <div class="col-md-10 mx-auto text-center">
-          <img src="../img/zoo.JPEG" class="img-fluid rounded-image" alt="Photo du zoo mettant en avant l'espace du parc avec une girafe et rhynocéros qui se promènent">
+          <img src="/public/img/zoo.JPEG" class="img-fluid rounded-image" alt="Photo du zoo mettant en avant l'espace du parc avec une girafe et rhynocéros qui se promènent">
         </div>
       </div>
     </div>
@@ -101,19 +101,19 @@
       <div class="d-flex justify-content-center align-items-center flex-wrap">
         <div class="p-4">
           <a href="/habitats" onclick="window.route(even)" class="circle-button d-inline-block text-center">
-            <img src="../img/jungle.jpg" alt="Jungle" class="img-fluid rounded-circle">
+            <img src="/public/img/jungle.jpg" alt="Jungle" class="img-fluid rounded-circle">
             <span class="button-text">Jungle</span>
           </a>
         </div>
         <div class="p-4">
           <a href="/habitats" onclick="window.route(even)" class="circle-button d-inline-block text-center">
-            <img src="../img/marais.jpg" alt="Marais" class="img-fluid rounded-circle">
+            <img src="/public/img/marais.jpg" alt="Marais" class="img-fluid rounded-circle">
             <span class="button-text">Marais</span>
           </a>
         </div>
         <div class="p-4">
           <a href="/habitats" onclick="window.route(even)" class="circle-button d-inline-block text-center">
-            <img src="../img/savane.jpg" alt="Savane" class="img-fluid rounded-circle">
+            <img src="/public/img/savane.jpg" alt="Savane" class="img-fluid rounded-circle">
             <span class="button-text">Savane</span>
           </a>
         </div>
@@ -127,16 +127,16 @@
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <div class="owl-carousel owl-theme col-lg-6">
-                    <div class="item"><a href="../img/CarouselDSC_0394.JPG" class="glightbox"><img src="../img/CarouselDSC_0394.JPG" alt="Photo de notre espace jungle" class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0400.JPG" class="glightbox"><img src="../img/CarouselDSC_0400.JPG" alt="Photo des lions qui se reposent sur leur rochers dans leur environnement savane." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0403.JPG" class="glightbox"><img src="../img/CarouselDSC_0403.JPG" alt="Suricat debout faisant le guet." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0416.JPG" class="glightbox"><img src="../img/CarouselDSC_0416.JPG" alt="Deux éléphants si ce promènent." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0433.JPG" class="glightbox"><img src="../img/CarouselDSC_0433.JPG" alt="Rhinocéros qui mange vu de profil droit." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0462.JPG" class="glightbox"><img src="../img/CarouselDSC_0462.JPG" alt="Grorille assis grimacant." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0443.JPG" class="glightbox"><img src="../img/CarouselDSC_0443.JPG" alt="Panda vu de haut qui mange." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0499.JPG" class="glightbox"><img src="../img/CarouselDSC_0499.JPG" alt="Girafe vu de profil." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0504.JPG" class="glightbox"><img src="../img/CarouselDSC_0504.JPG" alt="Guépard marchant vu de face." class="img-fluid"></a></div>
-                    <div class="item"><a href="../img/CarouselDSC_0559.JPG" class="glightbox"><img src="../img/CarouselDSC_0559.JPG" alt="Boa enroulé sur lui nous regardant." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0394.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0394.JPG" alt="Photo de notre espace jungle" class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0400.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0400.JPG" alt="Photo des lions qui se reposent sur leur rochers dans leur environnement savane." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0403.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0403.JPG" alt="Suricat debout faisant le guet." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0416.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0416.JPG" alt="Deux éléphants si ce promènent." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0433.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0433.JPG" alt="Rhinocéros qui mange vu de profil droit." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0462.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0462.JPG" alt="Grorille assis grimacant." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0443.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0443.JPG" alt="Panda vu de haut qui mange." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0499.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0499.JPG" alt="Girafe vu de profil." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0504.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0504.JPG" alt="Guépard marchant vu de face." class="img-fluid"></a></div>
+                    <div class="item"><a href="/public/img/CarouselDSC_0559.JPG" class="glightbox"><img src="/public/img/CarouselDSC_0559.JPG" alt="Boa enroulé sur lui nous regardant." class="img-fluid"></a></div>
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@
 
         <div class="container">
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../img/resto.jpg" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
+                <div class="col-lg-6"><img class="img-fluid" src="/public/img/resto.jpg" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-theme h-100">
                       <h4 class="pt-4 text-center">Restaurant</h4>
@@ -166,7 +166,7 @@
                 </div>
             </div>
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../img/guide.jpg" alt="Vue d'un guide qui présente des lémuriens (singles) dans leurs enclos." /></div>
+                <div class="col-lg-6"><img class="img-fluid" src="/public/img/guide.jpg" alt="Vue d'un guide qui présente des lémuriens (singles) dans leurs enclos." /></div>
                 <div class="col-lg-6 order-lg-2">
                     <div class="bg-theme h-100">
                       <h4 class="pt-4 text-center">Visites guidées</h4>
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../img/petit train.png" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
+                <div class="col-lg-6"><img class="img-fluid" src="/public/img/petit train.png" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-theme h-100">
                       <h4 class="pt-4 text-center">Petit train</h4>
@@ -305,7 +305,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 
     <!-- Ton script externe -->
-    <script src="../Scripts/carousel.js"></script>
+    <script src="./public/js/carousel.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
   </body>

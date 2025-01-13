@@ -42,7 +42,7 @@ interface UrlGeneratorInterface extends RequestContextAwareInterface
     public const ABSOLUTE_PATH = 1;
 
     /**
-     * Generates a relative path based on the current request path, e.g. "../parent-file".
+     * Generates a relative path based on the current request path, e.g. "/parent-file".
      *
      * @see UrlGenerator::getRelativePath()
      */

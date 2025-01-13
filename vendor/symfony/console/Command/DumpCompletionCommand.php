@@ -90,7 +90,7 @@ EOH
         }
 
         $shell = $input->getArgument('shell') ?? self::guessShell();
-        $completionFile = __DIR__.'/../Resources/completion.'.$shell;
+        $completionFile = __DIR__.'//Resources/completion.'.$shell;
         if (!file_exists($completionFile)) {
             $supportedShells = $this->getSupportedShells();
 
@@ -139,7 +139,7 @@ EOH
 
         $shells = [];
 
-        foreach (new \DirectoryIterator(__DIR__.'/../Resources/') as $file) {
+        foreach (new \DirectoryIterator(__DIR__.'//Resources/') as $file) {
             if (str_starts_with($file->getBasename(), 'completion.') && $file->isFile()) {
                 $shells[] = $file->getExtension();
             }

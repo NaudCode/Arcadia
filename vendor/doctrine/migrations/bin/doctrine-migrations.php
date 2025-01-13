@@ -16,8 +16,8 @@ use const STDERR;
 
 (static function (): void {
     $autoloadFiles = [
-        __DIR__ . '/../vendor/autoload.php',
-        __DIR__ . '/../../../autoload.php',
+        __DIR__ . '//vendor/autoload.php',
+        __DIR__ . '////autoload.php',
     ];
 
     $autoloaderFound = false;

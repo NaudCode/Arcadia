@@ -505,7 +505,7 @@ class XmlFileLoader extends FileLoader
         $xpath->registerNamespace('container', self::NS);
 
         // anonymous services as arguments/properties
-        if (false !== $nodes = $xpath->query('.//container:argument[@type="service"][not(@id)]|.//container:property[@type="service"][not(@id)]|.//container:bind[not(@id)]|.//container:factory[not(@service)]|.//container:configurator[not(@service)]', $root)) {
+        if (false !== $nodes = $xpath->query('/container:argument[@type="service"][not(@id)]|/container:property[@type="service"][not(@id)]|/container:bind[not(@id)]|/container:factory[not(@service)]|/container:configurator[not(@service)]', $root)) {
             foreach ($nodes as $node) {
                 if ($services = $this->getChildren($node, 'service')) {
                     // give it a unique name
@@ -524,7 +524,7 @@ class XmlFileLoader extends FileLoader
         }
 
         // anonymous services "in the wild"
-        if (false !== $nodes = $xpath->query('.//container:services/container:service[not(@id)]', $root)) {
+        if (false !== $nodes = $xpath->query('/container:services/container:service[not(@id)]', $root)) {
             foreach ($nodes as $node) {
                 throw new InvalidArgumentException(\sprintf('Top-level services must have "id" attribute, none found in "%s" at line %d.', $file, $node->getLineNo()));
             }

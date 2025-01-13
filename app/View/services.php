@@ -9,8 +9,8 @@
     <!-- icone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../Styles/custom.css">
-    <link rel="stylesheet" href="../Styles/services.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
+    <link rel="stylesheet" href="/public/css/services.css">
   </head>
 
   <body>
@@ -48,7 +48,7 @@
 
     <!-- Hero elephant eating -->
     <div class="hero-image-container">
-      <img src="../img/service_header.jpg" alt="Photo d'un éléphant dans l'eau, vue de profil mangeant une pomme grâce à sa trompe." class="hero-image">
+      <img src="/public/img/service_header.jpg" alt="Photo d'un éléphant dans l'eau, vue de profil mangeant une pomme grâce à sa trompe." class="hero-image">
     </div>
 
     <!-- Habitat presentation -->
@@ -72,7 +72,7 @@
         </div>
 
         <div class="row gx-0 justify-content-center p-4">
-            <div class="col-lg-6"><img class="img-fluid rounded-image" src="../img/resto.jpg" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
+            <div class="col-lg-6"><img class="img-fluid rounded-image" src="/public/img/resto.jpg" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
             <div class="col-lg-6 order-lg-first">
                 <div class="h-100">
                     <p class="pt-4 text-center"><b>Nom</b></p>
@@ -89,7 +89,7 @@
             <h4 class="description-content text-center">Visite guidée</h4>
         </div>
         <div class="row gx-0 justify-content-center p-4">
-            <div class="col-lg-6"><img class="img-fluid rounded-image" src="../img/guide.jpg" alt="Vue d'un guide qui présente des lémuriens (singles) dans leurs enclos." /></div>
+            <div class="col-lg-6"><img class="img-fluid rounded-image" src="/public/img/guide.jpg" alt="Vue d'un guide qui présente des lémuriens (singles) dans leurs enclos." /></div>
             <div class="col-lg-6 order-lg-2">
                 <div class="h-100">
                     <p class="pt-4 text-center"><b>Nom</b></p>
@@ -106,7 +106,7 @@
             <h4 class="description-content text-center">Petit train</h4>
         </div>
         <div class="row gx-0 justify-content-center p-4">
-            <div class="col-lg-6"><img class="img-fluid rounded-image" src="../img/petit train.png" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
+            <div class="col-lg-6"><img class="img-fluid rounded-image" src="/public/img/petit train.png" alt="Vue d'une table en terasse du restaurant sur le parc." /></div>
             <div class="col-lg-6 order-lg-first">
                 <div class="h-100">
                     <p class="pt-4 text-center"><b>Nom</b></p>
@@ -182,6 +182,5 @@
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="../Scripts/habitats.js"></script>  
     </body>
     </html>

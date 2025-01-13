@@ -9,8 +9,8 @@
     <!-- icone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../Styles/custom.css">
-    <link rel="stylesheet" href="../Styles/habitats.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
+    <link rel="stylesheet" href="/public/css/habitats.css">
   </head>
 
   <body>
@@ -48,7 +48,7 @@
 
     <!-- Hero Firefox -->
     <div class="hero-image-container">
-      <img src="../img/header firefox.jpg" alt="Panda roux vue de face." class="hero-image">
+      <img src="/public/img/header firefox.jpg" alt="Panda roux vue de face." class="hero-image">
     </div>
 
 
@@ -65,19 +65,19 @@
       <div class="d-flex justify-content-center align-items-center flex-wrap mb-4">
         <div class="p-4">
           <a href="#" class="circle-button d-inline-block text-center" data-habitat="jungle">
-            <img src="../img/jungle.jpg" alt="Jungle" class="img-fluid rounded-circle">
+            <img src="/public/img/jungle.jpg" alt="Jungle" class="img-fluid rounded-circle">
             <span class="button-text">Jungle</span>
           </a>
         </div>
         <div class="p-4">
           <a href="#" class="circle-button d-inline-block text-center" data-habitat="marais">
-            <img src="../img/marais.jpg" alt="Marais" class="img-fluid rounded-circle">
+            <img src="/public/img/marais.jpg" alt="Marais" class="img-fluid rounded-circle">
             <span class="button-text">Marais</span>
           </a>
         </div>
         <div class="p-4">
           <a href="#" class="circle-button d-inline-block text-center" data-habitat="savane">
-            <img src="../img/savane.jpg" alt="Savane" class="img-fluid rounded-circle">
+            <img src="/public/img/savane.jpg" alt="Savane" class="img-fluid rounded-circle">
             <span class="button-text">Savane</span>
           </a>
         </div>
@@ -97,7 +97,7 @@
       <div class="container">
           <div class="row gx-0 justify-content-center animal-row" data-habitat="jungle">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/Roxy.jpg" alt="description image" data-name="Roxy" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/Roxy.jpg" alt="description image" data-name="Roxy" />
               <span class="animal-name">Roxy</span>
             </div>
             <div class="col-lg-6 order-lg-first ml-3 ">
@@ -119,7 +119,7 @@
           </div>
           <div class="row gx-0 justify-content-center animal-row" data-habitat="jungle">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/Polly.webp" alt="description image" data-name="Polly" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/Polly.webp" alt="description image" data-name="Polly" />
               <span class="animal-name">Polly</span>
             </div>
             <div class="col-lg-6 order-lg-2">
@@ -141,7 +141,7 @@
           </div>
           <div class="row gx-0 justify-content-center animal-row" data-habitat="jungle">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/Jade.webp" alt="description image" data-name="Jade" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/Jade.webp" alt="description image" data-name="Jade" />
               <span class="animal-name">Jade</span>
             </div>
             <div class="col-lg-6 order-lg-first">
@@ -163,7 +163,7 @@
           </div>
           <div class="row gx-0 justify-content-center animal-row" data-habitat="jungle">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/bongo.jpg" alt="description image" data-name="Bongo" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/bongo.jpg" alt="description image" data-name="Bongo" />
               <span class="animal-name">Bongo</span>
             </div>
             <div class="col-lg-6 order-lg-2">
@@ -188,7 +188,7 @@
       <div class="container">
           <div class="row gx-0 justify-content-center animal-row" data-habitat="savane">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/lion desc.jpg" alt="description image" data-name="Simba" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/lion desc.jpg" alt="description image" data-name="Simba" />
               <span class="animal-name">Simba</span>
             </div>
             <div class="col-lg-6 order-lg-first ml-3 ">
@@ -210,7 +210,7 @@
           </div>
           <div class="row gx-0 justify-content-center animal-row" data-habitat="savane">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/daisy.webp" alt="description image" data-name="Daisy" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/daisy.webp" alt="description image" data-name="Daisy" />
               <span class="animal-name">Daisy</span>
             </div>
             <div class="col-lg-6 order-lg-2">
@@ -232,7 +232,7 @@
           </div>
           <div class="row gx-0 justify-content-center animal-row" data-habitat="savane">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/zebre.jpg" alt="description image" data-name="Ziggi" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/zebre.jpg" alt="description image" data-name="Ziggi" />
               <span class="animal-name">Zigi</span>
             </div>
             <div class="col-lg-6 order-lg-first">
@@ -257,7 +257,7 @@
       <div class="container">
           <div class="row gx-0 justify-content-center animal-row" data-habitat="marais">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/Alligator.webp" alt="description image" data-name="Al" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/Alligator.webp" alt="description image" data-name="Al" />
               <span class="animal-name">Al</span>
             </div>
             <div class="col-lg-6 order-lg-2">
@@ -279,7 +279,7 @@
           </div>
           <div class="row gx-0 justify-content-center animal-row" data-habitat="marais">
             <div class="col-lg-6 animal-image-container">
-              <img class="img-fluid animal-image rounded-image" src="../img/Shelly.webp" alt="description image" data-name="Sheely" />
+              <img class="img-fluid animal-image rounded-image" src="/public/img/Shelly.webp" alt="description image" data-name="Sheely" />
               <span class="animal-name">Sheely</span>
             </div>
             <div class="col-lg-6 order-lg-first">
@@ -366,6 +366,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="../Scripts/habitats.js"></script>  
+    <script src="./public/js/habitats.js"></script>  
   </body>
 </html>

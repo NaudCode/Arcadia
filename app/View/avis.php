@@ -9,8 +9,8 @@
     <!-- icone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../Styles/custom.css">
-    <link rel="stylesheet" href="../Styles/avis.css">
+    <link rel="stylesheet" href="/public/css/custom.css">
+    <link rel="stylesheet" href="/public/css/avis.css">
   </head>
 
   <body>
@@ -48,7 +48,7 @@
 
     <!-- Hero thinking monkey -->
     <div class="hero-image-container">
-      <img src="../img/header_avis.jpg" alt="Phot d'un singe les doigts sur le menton, comme s'il était en pleine réflexion." class="hero-image">
+      <img src="/public/img/header_avis.jpg" alt="Phot d'un singe les doigts sur le menton, comme s'il était en pleine réflexion." class="hero-image">
     </div>
 
     <!-- Habitat presentation -->
@@ -171,6 +171,5 @@
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="../Scripts/habitats.js"></script>  
     </body>
     </html>

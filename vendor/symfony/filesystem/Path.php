@@ -57,8 +57,8 @@ final class Path
      * echo Path::canonicalize("\symfony\puli\..\css\style.css");
      * // => /symfony/css/style.css
      *
-     * echo Path::canonicalize("../css/./style.css");
-     * // => ../css/style.css
+     * echo Path::canonicalize("/css/./style.css");
+     * // => /css/style.css
      * ```
      *
      * This method is able to deal with both UNIX and Windows paths.
@@ -405,7 +405,7 @@ final class Path
      * into forward slashes.
      *
      * ```php
-     * echo Path::makeAbsolute("../style.css", "/symfony/puli/css");
+     * echo Path::makeAbsolute("/style.css", "/symfony/puli/css");
      * // => /symfony/puli/style.css
      * ```
      *
@@ -465,7 +465,7 @@ final class Path
      *
      * ```php
      * echo Path::makeRelative("/symfony/style.css", "/symfony/puli");
-     * // => ../style.css
+     * // => /style.css
      * ```
      *
      * If a relative path is passed and the base path is absolute, the relative
@@ -481,7 +481,7 @@ final class Path
      *
      * ```php
      * Path::makeRelative("style.css", "symfony/puli/css");
-     * // => ../../../style.css
+     * // => ///style.css
      * ```
      *
      * If both paths are absolute, their root directory must be the same,
@@ -543,13 +543,13 @@ final class Path
             return $relativePath;
         }
 
-        // Build a "../../" prefix with as many "../" parts as necessary
+        // Build a "//" prefix with as many "/" parts as necessary
         $parts = explode('/', $relativePath);
         $baseParts = explode('/', $relativeBasePath);
         $dotDotPrefix = '';
 
         // Once we found a non-matching part in the prefix, we need to add
-        // "../" parts for all remaining parts
+        // "/" parts for all remaining parts
         $match = true;
 
         foreach ($baseParts as $index => $basePart) {
@@ -560,7 +560,7 @@ final class Path
             }
 
             $match = false;
-            $dotDotPrefix .= '../';
+            $dotDotPrefix .= '/';
         }
 
         return rtrim($dotDotPrefix.implode('/', $parts), '/');

@@ -191,7 +191,7 @@ class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInt
         // the path segments "." and ".." are interpreted as relative reference when resolving a URI; see http://tools.ietf.org/html/rfc3986#section-3.3
         // so we need to encode them as they are not used for this purpose here
         // otherwise we would generate a URI that, when followed by a user agent (e.g. browser), does not match this route
-        $url = strtr($url, ['/../' => '/%2E%2E/', '/./' => '/%2E/']);
+        $url = strtr($url, ['//' => '/%2E%2E/', '/./' => '/%2E/']);
         if (str_ends_with($url, '/..')) {
             $url = substr($url, 0, -2).'%2E%2E';
         } elseif (str_ends_with($url, '/.')) {
@@ -302,9 +302,9 @@ class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInt
      * Example target paths, given a base path of "/a/b/c/d":
      * - "/a/b/c/d"     -> ""
      * - "/a/b/c/"      -> "./"
-     * - "/a/b/"        -> "../"
+     * - "/a/b/"        -> "/"
      * - "/a/b/c/other" -> "other"
-     * - "/a/x/y"       -> "../../x/y"
+     * - "/a/x/y"       -> "//x/y"
      *
      * @param string $basePath   The base path
      * @param string $targetPath The target path
@@ -329,7 +329,7 @@ class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInt
         }
 
         $targetDirs[] = $targetFile;
-        $path = str_repeat('../', \count($sourceDirs)).implode('/', $targetDirs);
+        $path = str_repeat('/', \count($sourceDirs)).implode('/', $targetDirs);
 
         // A reference to the same base directory or an empty subdirectory must be prefixed with "./".
         // This also applies to a segment with a colon character (e.g., "file:colon") that cannot be used

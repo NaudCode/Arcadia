@@ -11,7 +11,7 @@ fwrite(
 
 echo PHP_EOL . PHP_EOL;
 
-$files       = [__DIR__ . '/../vendor/autoload.php', __DIR__ . '/../../../autoload.php'];
+$files       = [__DIR__ . '//vendor/autoload.php', __DIR__ . '////autoload.php'];
 $loader      = null;
 $cwd         = getcwd();
 $directories = [$cwd, $cwd . DIRECTORY_SEPARATOR . 'config'];
